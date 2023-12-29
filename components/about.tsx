@@ -39,9 +39,9 @@ export default function About() {
         developer.
       </p>
       <p>
-        <span className="italic">When I'm not coding</span>,
+        {/* <span className="italic">When I'm not coding</span>,
         I find myself in the world of music. love both classical and contemporary tunes.{" "}
-        Let's embark on a journey of innovation, where the artistry of development meets the precision of code! 🚀🎹🖥️
+        Let's embark on a journey of innovation, where the artistry of development meets the precision of code! 🚀🎹🖥️ */}
       </p>
     </motion.section>
   )
