@@ -19,11 +19,11 @@ export const experiencesData = [
     {
         id: 2,
         title: "Front-End Developer WindmillCode",
-        location: "Newyork",
+        location: "Remote",
         description:
             " Over the past 8 months collaborating with a dynamic developer group, I've honed my teamwork skills, seamlessly integrating with diverse talents. Through daily stand-ups and code reviews, I've embraced an agile mindset, fostering efficient communication and iterative development. This collaborative journey has not only amplified my technical proficiency but also enriched my understanding of the collective power of a cohesive development team.",
         icon: React.createElement(CgWorkAlt),
-        date: "2019 - 2021",
+        date: "2023",
     },
     {
         id: 3,
@@ -31,7 +31,7 @@ export const experiencesData = [
         location: "Ondo",
         description: "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
         icon: React.createElement(FaReact),
-        date: "2021 - present",
+        date: "2021",
     },
 ] as const;
 

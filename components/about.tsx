@@ -33,15 +33,15 @@ export default function About() {
         <span className="font-medium">
           React, Next.js, Node.js,
         </span>
-       { " "}I am always looking to
+        {" "}I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
       <p>
-        {/* <span className="italic">When I'm not coding</span>,
-        I find myself in the world of music. love both classical and contemporary tunes.{" "}
-        Let's embark on a journey of innovation, where the artistry of development meets the precision of code! 🚀🎹🖥️ */}
+        <span className="italic">When I&apos;m not coding</span>,
+        I find myself in the world of music. Love both classical and contemporary tunes.{" "}
+        Let&apos;s embark on a journey of innovation, where the artistry of development meets the precision of code! 🚀🎹🖥️
       </p>
     </motion.section>
   )
