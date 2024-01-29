@@ -40,9 +40,10 @@ export default function Experience() {
                             fontSize: '1.5rem'
                         }}
                         >
-                            <h3 className='font-semibold capitalize'>{item.title}</h3>
-                            <p className='font-normal !mt-0'>{item.location}</p>
-                            <p className='!mt-1 !font-normal text-gray-700
+                            <h3 className='font-semibold capitalize text-white p-4'>{item.title}</h3>
+                            <h3 className='font-semibold capitalize text-white p-4'>{item.title}</h3>
+                            <p className='font-normal !mt-0 text-white p-4'>{item.location}</p>
+                            <p className='!mt-1 !font-normal text-white p-4
                             dark:text-white/75'>{item.description}</p>
                         </VerticalTimelineElement>
                         </React.Fragment>

@@ -55,7 +55,7 @@ export default function Intro() {
              !leading-[1.5] sm:text-4xl'
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}>
-                <span className="font-bold">Hello, I&apos;m Nifemi.</span> I&apos;m a{' '}
+                <span className="font-bold">Hello, testing I&apos;m Nifemi.</span> I&apos;m a{' '}
                 <span className="font-bold">frontend developer</span> with over{" "}
                 <span className="font-bold">a year</span> of experience. I enjoy
                 building <span className="italic">sites & web apps</span>. My focus is{" "}
