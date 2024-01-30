@@ -69,15 +69,17 @@ export const projectsData = [
             "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
         tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
         imageUrl: ecommerceImg,
-        links: "https://en.wikipedia.org/wiki/JJ_(Swedish_band)"
+        links: "https://en.wikipedia.org/wiki/JJ_(Swedish_band)",
+        code: "https://en.wikipedia.org/wiki/JJ_(Swedish_band)"
     },
     {
-        title: "rmtDev",
+        title: "StreamFlix",
         description:
-            "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-        tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+            "Seamless Google Authentication: Integrate Google OAuth for effortless login and logout, Netflix-inspired Home Screen: Craft an engaging interface mirroring Netflix to display movie options.",
+        tags: ["React", "Redux", "Next.js", "Stripe Checkout", "Webhooks","Firestore", " Google Auth"],
         imageUrl: netflix,
-        links: "https://www.deezer.com/fr/artist/343640"
+        links: "https://www.deezer.com/fr/artist/343640",
+        code: "https://en.wikipedia.org/wiki/JJ_(Swedish_band)"
     },
     {
         title: "Word Analytics",
@@ -85,7 +87,8 @@ export const projectsData = [
             "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
         tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
         imageUrl: wordanalyticsImg,
-        links: "https://www.imdb.com/name/nm0009190/"
+        links: "https://www.imdb.com/name/nm0009190/",
+        code: "https://en.wikipedia.org/wiki/JJ_(Swedish_band)"
     },
 ] as const;
 
