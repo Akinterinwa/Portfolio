@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import ecommerce from "../images/ecommerce.PNG";
-import netflix from "../images/netflix.PNG";
+import ecommerceImg from "../public/feyerotmta.jpeg";
+import netflix from "../public/7564f7951ba5445a8f1d12fb.avif";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const experiencesData = [
@@ -68,7 +68,7 @@ export const projectsData = [
         description:
             "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
         tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-        imageUrl: ecommerce,
+        imageUrl: ecommerceImg,
     },
     {
         title: "rmtDev",
