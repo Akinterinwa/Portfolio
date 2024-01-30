@@ -3,7 +3,6 @@ import { useRef } from 'react';
 import { projectsData } from '@/lib/data';
 import Image from 'next/image';
 import { useScroll, motion, useTransform } from 'framer-motion';
-import { useRouter } from 'next/router';
 
 
 type ProjectProps = typeof projectsData[number]
@@ -16,15 +15,6 @@ export default function Project({ title, description, tags, imageUrl, links }: P
     });
     const scaleProgress = useTransform(scrollYProgress, [0,  1], [0.8, 1]);
     const opacityProgress = useTransform(scrollYProgress, [0,  1], [0.4, 1]);
-
-
-    const router = useRouter();
-
-    const handleVisit = () => {
-      if (links) {
-        router.push(links);
-      }
-    };
 
 
     return(
@@ -54,12 +44,12 @@ export default function Project({ title, description, tags, imageUrl, links }: P
                 ))}
             </ul>
             {links && (
-        <div className="mt-4">
-          <div className="bg-blue-500 text-white py-2 px-4 rounded cursor-pointer" onClick={handleVisit}>
-            Visit
-          </div>
-        </div>
-      )}
+      <div className="mt-4">
+        <a href={links} className="bg-blue-500 text-white py-2 px-4 rounded cursor-pointer">
+          Visit
+        </a>
+      </div>
+    )}
         </div>
 
         <Image src={imageUrl} alt='project worked on' quality={95}
