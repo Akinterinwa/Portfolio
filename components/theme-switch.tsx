@@ -1,5 +1,4 @@
 "use client";
-
 import { useTheme } from '@/context/theme-context';
 import React from 'react'
 import { BsMoon, BsSun } from 'react-icons/bs'
@@ -20,5 +19,5 @@ export default function ThemeSwitch() {
             theme === "light" ? <BsSun /> : <BsMoon />
         }
     </button>
-  )
+  ) 
 }

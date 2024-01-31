@@ -43,6 +43,6 @@ export default function RootLayout({
         </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>
-    </html>
+    </html> 
   );
-}
+}  

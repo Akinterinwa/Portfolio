@@ -26,7 +26,7 @@ export default function Project({ title, description, tags, imageUrl, links, cod
             }}
             className='group mb-3 sm:mb-8 last:mb-0' >
             <section
-                className='bg-gray-100 h-[27rem] max-w-[42rem] border
+                className='bg-gray-100 md:h-[27rem] max-w-[42rem] border
     border-black/5 overflow-hidden sm:pr-8 relative sm:h-[20rem]
     sm:group-even:pl-8 hover:bg-gray-200 transition rounded-lg 
     dark:bg-white/10 dark:hover:bg-white/20 dark:text-white'>
