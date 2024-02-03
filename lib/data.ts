@@ -73,7 +73,7 @@ export const projectsData = [
         code: "https://github.com/Akinterinwa/streamflix"
     },
     {
-        title: "Junia Dashboard",
+        title: "Jumia Dashboard",
         description:
             "A dashboard inspired by Jumia with a sleek feature and intuitive design, prioritizing user-friendly navigation and clear presentation of data. It incorporate vibrant colors,",
         tags: ["HTML", "CSS", "Javascript"],
