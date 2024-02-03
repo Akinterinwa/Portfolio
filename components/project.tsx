@@ -46,10 +46,10 @@ export default function Project({ title, description, tags, imageUrl, links, cod
                     {links && (
                         <div className="mt-4 gap-[10px] flex">
                             <a href={links} className="bg-blue-500 text-white py-2 px-4 rounded cursor-pointer">
-                                Visit
+                                View Site
                             </a>
                             <a href={code} className="bg-blue-500 text-white py-2 px-4 rounded cursor-pointer">
-                                Code
+                               Visit Github
                             </a>
                         </div>
                     )}

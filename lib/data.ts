@@ -78,8 +78,8 @@ export const projectsData = [
             "Seamless Google Authentication: Integrate Google OAuth for effortless login and logout, Netflix-inspired Home Screen: Craft an engaging interface mirroring Netflix to display movie options.",
         tags: ["React", "Redux", "Next.js", "Stripe Checkout", "Webhooks","Firestore", " Google Auth"],
         imageUrl: netflix,
-        links: "https://www.deezer.com/fr/artist/343640",
-        code: "https://en.wikipedia.org/wiki/JJ_(Swedish_band)"
+        links: "https://movie-app-8b343.web.app/",
+        code: "https://github.com/Akinterinwa/streamflix"
     },
     {
         title: "Word Analytics",
