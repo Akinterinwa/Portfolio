@@ -64,16 +64,7 @@ export const links = [
 
 export const projectsData = [
     {
-        title: "LAMASTORE",
-        description:
-            "An e-commerce app that facilitates online buying and selling of goods or services through a digital platform.",
-        tags: ["React", "Next.js", "Tailwind"],
-        imageUrl: ecommerceImg,
-        links: "https://marvelous-mandazi-d9edd5.netlify.app",
-        code: "https://github.com/Akinterinwa/e-store"
-    },
-    {
-        title: "NetFlix",
+        title: "NETFLIX",
         description:
             "Seamless Google Authentication: Integrate Google OAuth for effortless login and logout, Netflix-inspired Home Screen: Craft an engaging interface mirroring Netflix to display movie options.",
         tags: ["React", "Redux", "Next.js", "Stripe Checkout", "Webhooks","Firestore", " Google Auth"],
@@ -82,13 +73,22 @@ export const projectsData = [
         code: "https://github.com/Akinterinwa/streamflix"
     },
     {
-        title: "Word Analytics",
+        title: "Junia Dashboard",
         description:
             "A dashboard inspired by Jumia with a sleek feature and intuitive design, prioritizing user-friendly navigation and clear presentation of data. It incorporate vibrant colors,",
         tags: ["HTML", "CSS", "Javascript"],
         imageUrl: phoneImg,
         links: "https://nifemi-dom.netlify.app/",
         code: "https://github.com/Akinterinwa/DOM"
+    },
+    {
+        title: "LAMASTORE",
+        description:
+            "An e-commerce app that facilitates online buying and selling of goods or services through a digital platform.",
+        tags: ["React", "Next.js", "Tailwind"],
+        imageUrl: ecommerceImg,
+        links: "https://marvelous-mandazi-d9edd5.netlify.app",
+        code: "https://github.com/Akinterinwa/e-store"
     },
 ] as const;
 
