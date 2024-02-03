@@ -29,9 +29,9 @@ export const experiencesData = [
         id: 3,
         title: "Computer Operator",
         location: "Ondo",
-        description: "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+        description: "Hollaram Educational Concept is an organization that help O-level students in all various kinds of school to prepare and register them for Joint Admissions and Matriculation Board (JAMB) and The West African Examinations Council (WAEC). my role in this organization was to register each student using fingerprint scanner, webcam to capture their faces and also sending their details to the database for final registration.",
         icon: React.createElement(FaReact),
-        date: "2021",
+        date: "2017 - 2018",
     },
 ] as const;
 
