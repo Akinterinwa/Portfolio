@@ -64,16 +64,16 @@ export const links = [
 
 export const projectsData = [
     {
-        title: "CorpComment",
+        title: "LAMASTORE",
         description:
-            "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-        tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+            "An e-commerce app that facilitates online buying and selling of goods or services through a digital platform.",
+        tags: ["React", "Next.js", "Tailwind"],
         imageUrl: ecommerceImg,
         links: "https://marvelous-mandazi-d9edd5.netlify.app",
         code: "https://github.com/Akinterinwa/e-store"
     },
     {
-        title: "StreamFlix",
+        title: "NetFlix",
         description:
             "Seamless Google Authentication: Integrate Google OAuth for effortless login and logout, Netflix-inspired Home Screen: Craft an engaging interface mirroring Netflix to display movie options.",
         tags: ["React", "Redux", "Next.js", "Stripe Checkout", "Webhooks","Firestore", " Google Auth"],
@@ -84,8 +84,8 @@ export const projectsData = [
     {
         title: "Word Analytics",
         description:
-            "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-        tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+            "A dashboard inspired by Jumia with a sleek feature and intuitive design, prioritizing user-friendly navigation and clear presentation of data. It incorporate vibrant colors,",
+        tags: ["HTML", "CSS", "Javascript"],
         imageUrl: phoneImg,
         links: "https://nifemi-dom.netlify.app/",
         code: "https://github.com/Akinterinwa/DOM"
