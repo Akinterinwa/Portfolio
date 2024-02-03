@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import ecommerceImg from "../public/feyerotmta.jpeg";
 import netflix from "../public/7564f7951ba5445a8f1d12fb.avif";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import phoneImg from "../public/phone.png";
 
 export const experiencesData = [
     {
@@ -69,8 +69,8 @@ export const projectsData = [
             "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
         tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
         imageUrl: ecommerceImg,
-        links: "https://en.wikipedia.org/wiki/JJ_(Swedish_band)",
-        code: "https://en.wikipedia.org/wiki/JJ_(Swedish_band)"
+        links: "https://marvelous-mandazi-d9edd5.netlify.app",
+        code: "https://github.com/Akinterinwa/e-store"
     },
     {
         title: "StreamFlix",
@@ -86,9 +86,9 @@ export const projectsData = [
         description:
             "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
         tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-        imageUrl: wordanalyticsImg,
-        links: "https://www.imdb.com/name/nm0009190/",
-        code: "https://en.wikipedia.org/wiki/JJ_(Swedish_band)"
+        imageUrl: phoneImg,
+        links: "https://nifemi-dom.netlify.app/",
+        code: "https://github.com/Akinterinwa/DOM"
     },
 ] as const;
 
