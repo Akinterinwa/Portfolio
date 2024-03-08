@@ -64,6 +64,15 @@ export const links = [
 
 export const projectsData = [
     {
+        title: "Inspire STEM Girls",
+        description:
+            "The vision is to ignite passion and confidence in young women, empowering them with STEM knowledge and skills to become future innovators and leaders in the ever-evolving world of technology and science.",
+        tags: ["React", "Framer-motion", "React-Spinner", "Paypal Donation","Emailjs"],
+        // imageUrl: netflix,
+        links: "https://stem-girls.vercel.app",
+        code: "https://github.com/Akinterinwa/STEM-GIRLS"
+    },
+    {
         title: "NETFLIX",
         description:
             "Seamless Google Authentication: Integrate Google OAuth for effortless login and logout, Netflix-inspired Home Screen: Craft an engaging interface mirroring Netflix to display movie options.",
