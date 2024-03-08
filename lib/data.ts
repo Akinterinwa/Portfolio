@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import ecommerceImg from "../public/feyerotmta.jpeg";
 import netflix from "../public/7564f7951ba5445a8f1d12fb.avif";
 import phoneImg from "../public/phone.png";
+import stem from "../public/pexels-mikhail-nilov-8923375.jpg";
 
 export const experiencesData = [
     {
@@ -68,7 +69,7 @@ export const projectsData = [
         description:
             "The vision is to ignite passion and confidence in young women, empowering them with STEM knowledge and skills to become future innovators and leaders in the ever-evolving world of technology and science.",
         tags: ["React", "Framer-motion", "React-Spinner", "Paypal Donation","Emailjs"],
-        // imageUrl: netflix,
+        imageUrl: stem,
         links: "https://stem-girls.vercel.app",
         code: "https://github.com/Akinterinwa/STEM-GIRLS"
     },
