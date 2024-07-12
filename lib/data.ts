@@ -3,9 +3,10 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import ecommerceImg from "../public/feyerotmta.jpeg";
-import netflix from "../public/7564f7951ba5445a8f1d12fb.avif";
+import netflix from "../public/movie.jpg";
 import phoneImg from "../public/phone.png";
 import stem from "../public/pexels-mikhail-nilov-8923375.jpg";
+import Find from "../public/find-me.jpg"
 
 export const experiencesData = [
     {
@@ -65,12 +66,21 @@ export const links = [
 
 export const projectsData = [
     {
+        title: "Find Me",
+        description:
+        "This application demonstrates the use of React and the Google Maps API for location tracking. It includes features for real-time location updates, route tracking, and a return path guide, along with dark mode support for the map.",
+        tags: ["React", "Google-Map", "GPS"],
+        imageUrl: Find,
+        links: "https://find-me-roan.vercel.app/",
+        code: "https://github.com/Akinterinwa/find-me"
+    },
+    {
         title: "Inspire STEM Girls",
         description:
             "The vision is to ignite passion and confidence in young women, empowering them with STEM knowledge and skills to become future innovators and leaders in the ever-evolving world of technology and science.",
         tags: ["React", "Framer-motion", "React-Spinner", "Paypal Donation","Emailjs"],
         imageUrl: stem,
-        links: "https://stem-girls.vercel.app",
+        links: "https://inspirestemgirls.com/",
         code: "https://github.com/Akinterinwa/STEM-GIRLS"
     },
     {
