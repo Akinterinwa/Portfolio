@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import ecommerceImg from "../public/feyerotmta.jpeg";
+import ecommerceImg from "../public/banner-2.jpg";
 import netflix from "../public/movie.jpg";
 import phoneImg from "../public/phone.png";
 import stem from "../public/pexels-mikhail-nilov-8923375.jpg";
@@ -102,13 +102,13 @@ export const projectsData = [
         code: "https://github.com/Akinterinwa/DOM"
     },
     {
-        title: "LAMASTORE",
+        title: "Glowing",
         description:
-            "An e-commerce app that facilitates online buying and selling of goods or services through a digital platform.",
-        tags: ["React", "Next.js", "Tailwind"],
+            "An e-commerce app that facilitates online buying and selling of product through a digital platform.",
+        tags: ["HTML", "CSS", "JAVASCRIPT"],
         imageUrl: ecommerceImg,
-        links: "https://marvelous-mandazi-d9edd5.netlify.app",
-        code: "https://github.com/Akinterinwa/e-store"
+        links: "https://akinterinwa-product.netlify.app/",
+        code: "https://github.com/Akinterinwa/Product"
     },
 ] as const;
 
