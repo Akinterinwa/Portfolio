@@ -14,7 +14,7 @@ export const experiencesData = [
         title: "Graduate GomyCode bootcamp",
         location: "Lekki, Lagos",
         description:
-            " In my 5-month journey as a full-stack student, I've gained proficiency in both frontend and backend technologies. I've mastered the art of crafting responsive and dynamic user interfaces using modern frontend frameworks. On the server side, I've delved into database management, server architecture, and the intricacies of backend development. Collaboration and version control have become second nature, fostering a holistic understanding of the end-to-end development process.",
+            "In my journey as a full-stack student, I’ve built solid skills in both frontend and backend development. I’ve learned how to create responsive, interactive user interfaces with modern tools, and I’ve also worked with databases and server-side logic. I’m comfortable working in teams and using version control, which has helped me understand how all parts of a project come together from start to finish.",
         icon: React.createElement(LuGraduationCap),
         date: "2023",
     },
@@ -23,7 +23,7 @@ export const experiencesData = [
         title: "Front-End Developer WindmillCode",
         location: "Remote",
         description:
-            " Over the past 8 months collaborating with a dynamic developer group, I've honed my teamwork skills, seamlessly integrating with diverse talents. Through daily stand-ups and code reviews, I've embraced an agile mindset, fostering efficient communication and iterative development. This collaborative journey has not only amplified my technical proficiency but also enriched my understanding of the collective power of a cohesive development team.",
+        "Over the past 8 months, working with a team of skilled developers has helped me grow as a team player. Regular stand-ups and code reviews taught me the value of clear communication and working in short, focused cycles. This experience has improved my technical skills and shown me how much stronger a team can be when everyone works together.",
         icon: React.createElement(CgWorkAlt),
         date: "2023",
     },

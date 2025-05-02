@@ -38,7 +38,7 @@ export default function About() {
       </p>
       <p>
         <span className="italic">When I&apos;m not coding</span>,
-        I find myself in the world of music. Love both classical and contemporary tunes.{" "}
+        I find myself in the world of music. I Love both classical and contemporary tunes.{" "}
       </p>
     </motion.section>
   )
