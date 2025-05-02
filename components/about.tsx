@@ -39,7 +39,6 @@ export default function About() {
       <p>
         <span className="italic">When I&apos;m not coding</span>,
         I find myself in the world of music. Love both classical and contemporary tunes.{" "}
-        Let&apos;s embark on a journey of innovation, where the artistry of development meets the precision of code! 🚀🎹🖥️
       </p>
     </motion.section>
   )
