@@ -22,19 +22,13 @@ export default function About() {
         <SectionHeading>About me</SectionHeading>
       </h2>
       <p className='mb-3'>
-        After graduating with a degree of{" "}
-        <span className="font-medium">Arts</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
+        After earning my <span className="font-medium">Bachelor of Arts in Religion Studies</span>, I discovered a passion for logic, patterns, and creative problem-solving—which drew me into programming.
         <span className="font-medium">full-stack web development</span>.{" "} I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
           React and Next.js
         </span>
-        {" "}I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
       </p>
       <p>
         <span className="italic">When I&apos;m not coding</span>,

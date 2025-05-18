@@ -9,9 +9,18 @@ import stem from "../public/pexels-mikhail-nilov-8923375.jpg";
 import Find from "../public/find-me.jpg"
 
 export const experiencesData = [
-    {
+      {
         id: 1,
-        title: "Graduate GomyCode bootcamp",
+        title: "Website Developer @Lux Legacy Agency",
+        location: "Canada, Remote",
+        description:
+        "As a website developer at Lux Legacy, I create fully packaged, industry-specific websites designed for easy deployment and business growth. My work focuses on developing user-friendly digital experiences and automating business operations using custom CRM solutions—helping clients streamline their processes and scale efficiently.",
+        icon: React.createElement(CgWorkAlt),
+        date: "2025 - Present",
+    },
+    {
+        id: 2,
+        title: "Graduate GomyCode",
         location: "Lekki, Lagos",
         description:
             "In my journey as a full-stack student, I’ve built solid skills in both frontend and backend development. I’ve learned how to create responsive, interactive user interfaces with modern tools, and I’ve also worked with databases and server-side logic. I’m comfortable working in teams and using version control, which has helped me understand how all parts of a project come together from start to finish.",
@@ -19,17 +28,17 @@ export const experiencesData = [
         date: "2023",
     },
     {
-        id: 2,
-        title: "Front-End Developer WindmillCode",
-        location: "Remote",
+        id: 3,
+        title: "Front-End Developer @WindmillCode",
+        location: "USA, Remote",
         description:
         "Over the past 8 months, working with a team of skilled developers has helped me grow as a team player. Regular stand-ups and code reviews taught me the value of clear communication and working in short, focused cycles. This experience has improved my technical skills and shown me how much stronger a team can be when everyone works together.",
         icon: React.createElement(CgWorkAlt),
         date: "2023",
     },
     {
-        id: 3,
-        title: "Computer Operator",
+        id: 4,
+        title: "Computer Operator @Hollaram",
         location: "Ondo",
         description: "Hollaram Educational Concept is an organization that help O-level students in all various kinds of school to prepare and register them for Joint Admissions and Matriculation Board (JAMB) and The West African Examinations Council (WAEC). my role in this organization was to register each student using fingerprint scanner, webcam to capture their faces and also sending their details to the database for final registration.",
         icon: React.createElement(FaReact),
@@ -122,14 +131,11 @@ export const skillsData = [
     "Node.js",
     "Git",
     "Tailwind",
-    "Prisma",
-    "MongoDB",
+    "GHL",
+    "wordpress",
     "Redux",
-    "GraphQL",
-    "Apollo",
     "Express",
     "PostgreSQL",
-    "Firestore",
     "Django",
     "Framer Motion",
 ] as const;
