@@ -11,9 +11,29 @@ import ThemeContextProvider from "@/context/theme-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Oluwanifemi | Personal Portfolio",
-  description:
-    "Oluwanifemi is a full-stack junior developer with over a year of experience.",
+  title: "Akinterinwa Oluwanifemi | Full-Stack Developer Portfolio",
+  description: "Explore the portfolio of Akinterinwa Oluwanifemi, a passionate full-stack developer with expertise in building modern web applications. Discover my projects, skills, and professional experience.",
+  keywords: ["full-stack developer", "portfolio", "Next.js", "React", "TypeScript", "web developer", "Akinterinwa Oluwanifemi"],
+  authors: [{ name: "Akinterinwa Oluwanifemi", url: "https://www.linkedin.com/in/oluwanifemi-akinterinwa-242a82252/" }],
+  creator: "Akinterinwa Oluwanifemi",
+  openGraph: {
+    type: "website",
+    url: "https://your-website-url.com", // Replace with your actual website URL
+    title: "Akinterinwa Oluwanifemi | Full-Stack Developer Portfolio",
+    description: "Explore the portfolio of Akinterinwa Oluwanifemi, a passionate full-stack developer with expertise in building modern web applications. Discover my projects, skills, and professional experience.",
+    images: [
+      {
+        url: "https://your-image-url.com/og-image.png", // Replace with a URL to an attractive image for social sharing
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    creator: "@akinterinwa5",
+    title: "Akinterinwa Oluwanifemi | Full-Stack Developer Portfolio",
+    description: "Explore the portfolio of Akinterinwa Oluwanifemi, a passionate full-stack developer with expertise in building modern web applications. Discover my projects, skills, and professional experience.",
+    images: ["https://your-image-url.com/twitter-image.png"], // Replace with a URL to an attractive image for Twitter sharing
+  },
 };
 
 export default function RootLayout({
@@ -43,6 +63,6 @@ export default function RootLayout({
         </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>
-    </html> 
+    </html>
   );
-}  
+}
