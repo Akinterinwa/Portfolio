@@ -79,6 +79,7 @@ export const projectsData = [
         title: "Smart Build",
         description:
         "SmartBuild is a B2B marketplace where contractors buy building materials directly from factories at wholesale prices.  shop for all construction needs with tools like a cost calculator, smart product filters.",
+        tags: [],
         imageUrl: SmartBuild,
         links: "https://b2-b-4bjx.vercel.app/",
         code: "https://github.com/Akinterinwa/B2B"
