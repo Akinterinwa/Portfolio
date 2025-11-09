@@ -22,8 +22,8 @@ export default function About() {
         <SectionHeading>About me</SectionHeading>
       </h2>
       <p className='mb-3'>
-        After earning my <span className="font-medium">Bachelor of Arts in Religion Studies</span>, I discovered a passion for logic, patterns, and creative problem-solving—which drew me into programming.
-        <span className="font-medium">full-stack web development</span>.{" "} I <span className="underline">love</span> the
+        After earning my <span className="font-medium">Bachelor of Arts in Religion Studies</span>, I discovered a passion for logic, patterns, and creativity which drew me into programming.
+       I love the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">

@@ -4,9 +4,10 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import ecommerceImg from "../public/banner-2.jpg";
 import netflix from "../public/movie.jpg";
-import phoneImg from "../public/phone.png";
-import stem from "../public/pexels-mikhail-nilov-8923375.jpg";
-import Find from "../public/find-me.jpg"
+import BANK from "../public/BANK.png";
+import LFC from "../public/LFC GBAIKO.png";
+import stem from "../public/Inspire stem girls.jpg";
+import SmartBuild from "../public/SmartBuild.jpg";
 
 export const experiencesData = [
       {
@@ -25,7 +26,7 @@ export const experiencesData = [
         description:
             "In my journey as a full-stack student, I’ve built solid skills in both frontend and backend development. I’ve learned how to create responsive, interactive user interfaces with modern tools, and I’ve also worked with databases and server-side logic. I’m comfortable working in teams and using version control, which has helped me understand how all parts of a project come together from start to finish.",
         icon: React.createElement(LuGraduationCap),
-        date: "2023",
+        date: "2024",
     },
     {
         id: 3,
@@ -75,22 +76,39 @@ export const links = [
 
 export const projectsData = [
     {
-        title: "Find Me",
+        title: "Smart Build",
         description:
-        "This application demonstrates the use of React and the Google Maps API for location tracking. It includes features for real-time location updates, route tracking, and a return path guide, along with dark mode support for the map.",
-        tags: ["React", "Google-Map", "GPS"],
-        imageUrl: Find,
-        links: "https://find-me-roan.vercel.app/",
-        code: "https://github.com/Akinterinwa/find-me"
-    },
+        "SmartBuild is a B2B marketplace where contractors buy building materials directly from factories at wholesale prices.  shop for all construction needs with tools like a cost calculator, smart product filters.",
+        imageUrl: SmartBuild,
+        links: "https://b2-b-4bjx.vercel.app/",
+        code: "https://github.com/Akinterinwa/B2B"
+    }, 
     {
         title: "Inspire STEM Girls",
         description:
             "The vision is to ignite passion and confidence in young women, empowering them with STEM knowledge and skills to become future innovators and leaders in the ever-evolving world of technology and science.",
-        tags: ["React", "Framer-motion", "React-Spinner", "Paypal Donation","Emailjs"],
+        tags: ["React", "Framer-motion", "Node.js", "Formspree","Emailjs"],
         imageUrl: stem,
         links: "https://inspirestemgirls.com/",
         code: "https://github.com/Akinterinwa/STEM-GIRLS"
+    },
+        {
+        title: "LFC Minna Dashboard",
+        description:
+            "This is a React-based web application designed to help church choirs manage their activities efficiently. The platform features a dedicated Excos management section, detailed member profiles.",
+        tags: ["React", "Redux", "Tailwind CSS"],
+        imageUrl: LFC,
+        links: "https://winners-voice-gbaiko.vercel.app/choir-members?page=1",
+        code: "https://github.com/Akinterinwa/Winners-voice-gbaiko"
+    },
+     {
+        title: "Horizon Bank",
+        description:
+            "Horizon Banking is a secure, user-friendly financial platform designed to simplify digital banking operations. It allows users to create accounts, manage balances, transfer funds, track transaction history, and monitor spending in real time.",
+        tags: ["next-auth","React", "Redux", "Next.js", "Stripe Checkout"],
+        imageUrl: BANK,
+        links: "https://banking-topaz.vercel.app/sign-in",
+        code: "https://github.com/Akinterinwa/Banking"
     },
     {
         title: "NETFLIX",
@@ -100,15 +118,6 @@ export const projectsData = [
         imageUrl: netflix,
         links: "https://movie-app-8b343.web.app/",
         code: "https://github.com/Akinterinwa/streamflix"
-    },
-    {
-        title: "Jumia Dashboard",
-        description:
-            "A dashboard inspired by Jumia with a sleek feature and intuitive design, prioritizing user-friendly navigation and clear presentation of data. It incorporate vibrant colors,",
-        tags: ["HTML", "CSS", "Javascript"],
-        imageUrl: phoneImg,
-        links: "https://nifemi-dom.netlify.app/",
-        code: "https://github.com/Akinterinwa/DOM"
     },
     {
         title: "Glowing",
