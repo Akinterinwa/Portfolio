@@ -35,7 +35,9 @@ export const metadata: Metadata = {
     images: ["https://akinterinwa-oluwanifemi.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmy-image.f108a70d.jpg&w=384&q=95"], // Replace with a URL to an attractive image for Twitter sharing
   },
   icons: {
-    icon: "https://akinterinwa-oluwanifemi.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmy-image.f108a70d.jpg&w=384&q=95",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
 };
 
