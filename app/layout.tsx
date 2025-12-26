@@ -19,7 +19,6 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://akinterinwa-oluwanifemi.vercel.app/", // Replace with your actual website URL
-    url: "https://akinterinwa-oluwanifemi.vercel.app/", // Replace with your actual website URL
     title: "Akinterinwa Oluwanifemi | Full-Stack Developer Portfolio",
     description: "Explore the portfolio of Akinterinwa Oluwanifemi, a passionate full-stack developer with expertise in building modern web applications. Discover my projects, skills, and professional experience.",
     images: [
@@ -36,9 +35,9 @@ export const metadata: Metadata = {
     images: ["https://akinterinwa-oluwanifemi.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmy-image.f108a70d.jpg&w=384&q=95"], // Replace with a URL to an attractive image for Twitter sharing
   },
   icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "./favicon.png",
+    shortcut: "./favicon.png",
+    apple: "./favicon.png",
   },
 };
 
