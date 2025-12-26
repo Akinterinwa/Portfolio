@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   creator: "Akinterinwa Oluwanifemi",
   openGraph: {
     type: "website",
-    url: "https://your-website-url.com", // Replace with your actual website URL
+    url: "https://akinterinwa-oluwanifemi.vercel.app/", // Replace with your actual website URL
     title: "Akinterinwa Oluwanifemi | Full-Stack Developer Portfolio",
     description: "Explore the portfolio of Akinterinwa Oluwanifemi, a passionate full-stack developer with expertise in building modern web applications. Discover my projects, skills, and professional experience.",
     images: [
       {
-        url: "https://your-image-url.com/og-image.png", // Replace with a URL to an attractive image for social sharing
+        url: "https://akinterinwa-oluwanifemi.vercel.app/my-image.png", // Replace with a URL to an attractive image for social sharing
       },
     ],
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     creator: "@akinterinwa5",
     title: "Akinterinwa Oluwanifemi | Full-Stack Developer Portfolio",
     description: "Explore the portfolio of Akinterinwa Oluwanifemi, a passionate full-stack developer with expertise in building modern web applications. Discover my projects, skills, and professional experience.",
-    images: ["https://your-image-url.com/twitter-image.png"], // Replace with a URL to an attractive image for Twitter sharing
+    images: ["https://akinterinwa-oluwanifemi.vercel.app/my-image.png"], // Replace with a URL to an attractive image for Twitter sharing
   },
 };
 
