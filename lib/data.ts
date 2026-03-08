@@ -12,12 +12,12 @@ import SmartBuild from "../public/SmartBuild.jpg";
 export const experiencesData = [
       {
         id: 1,
-        title: "Website Developer @Lux Legacy Agency",
-        location: "Canada, Remote",
+        title: "Website Developer - (Freelance)",
+        location: "Remote",
         description:
-        "As a website developer at Lux Legacy, I create fully packaged, industry-specific websites designed for easy deployment and business growth. My work focuses on developing user-friendly digital experiences and automating business operations using custom CRM solutions—helping clients streamline their processes and scale efficiently.",
+        "I create fully packaged, industry-specific websites designed for easy deployment and business growth. My work focuses on developing user-friendly digital experiences and automating business operations using custom CRM solutions, helping clients streamline their processes and scale efficiently.",
         icon: React.createElement(CgWorkAlt),
-        date: "2025 - Present",
+        date: "2023 - 2025",
     },
     {
         id: 2,
